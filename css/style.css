@@ -3,11 +3,6 @@
 * This file contains the CSS for index.html
 */
 
-.mdl-layout__header-row {
-  align-items: center;
-  justify-content: center;
-}
-
 .mdl-layout__content {
   padding-left: 15pt;
   padding-right: 15pt;
@@ -15,8 +10,14 @@
 }
 
 p {
-  color: black;
-  font-family: Helvetica, Arial, sans-serif;
+  color: #0055ff;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.5rem;
-  padding-top: 15pt;
+}
+
+h3 {
+  color: #6e156f;
+  font: 15pt "Times New Roman", Times, serif;
+  font-weight: bold;
+  line-height: 16pt;
 }
