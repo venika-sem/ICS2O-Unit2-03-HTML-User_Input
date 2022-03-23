@@ -5,14 +5,14 @@
 // This file contains the JS functions for index.html
 
 /**
- * This function gets users street number and street name and shows it back to user.
+ * This function gets users street name and street number and shows it back to user.
  */
 function enterClicked() {
   // input
-  const streetNumber = document.getElementById("street-number").value
-  const streetName = parseInt(document.getElementById("street-name").value)
-
+  const streetName = document.getElementById("street-name").value
+  const streetNumber = parseInt(document.getElementById("street-number").value)
+  
   // output
-  document.getElementById("address").innerHTML =
-    "Your adress is: " + streetNumber + "440 Longfields " + streetName + "."
+  document.getElementById("user-address").innerHTML =
+    "Your address is: " + streetName + "Longfields " + streetNumber + "440 + "."
 }
